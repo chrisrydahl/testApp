@@ -1,0 +1,24 @@
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="/message/list">Messages</a></li>
+</ol>
+<div class="container">
+  <h1 class="display-4">Message Detail</h1>
+  <form method="post" action="/message/update/<%= message.id %>">
+    <div class="form-group">
+      <label for="title">Sender</label>
+      <input type="text" name="title" class="form-control" value="<%= message.name %>">
+    </div>
+    <div class="form-group">
+      <label for="body">Subject</label>
+      <textarea name="body" class="form-control"><%= message.subject %></textarea>
+    </div>
+    <div class="form-group">
+      <label for="body">Email</label>
+      <textarea name="body" class="form-control"><%= message.email %></textarea>
+    </div>
+    <div class="form-group">
+      <label for="body">Body</label>
+      <textarea name="body" class="form-control"><%= message.body %></textarea>
+    </div>
+  </form>
+</div>

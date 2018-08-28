@@ -1,0 +1,24 @@
+<h1 class="display-4">Messages</h1>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th>From</th>
+    <th>Subject</th>
+    <th>Email</th>
+    <th>State</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% messages.forEach(function(message){ %>
+  <tr>
+    <td><%= message.name %></td>
+    <td><%= message.subject %></td>
+    <td><%= message.email %></td>
+    <td><%= message.hasBeenRead? "Read": "New" %></td>
+    <td>
+      <a href="/message/detail/<%= message.id %>" class="btn btn-primary">Detail</a>
+    </td>
+  </tr>
+  <% }) %>
+  </tbody>
+</table>
