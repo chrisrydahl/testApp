@@ -1,0 +1,8 @@
+.Card-style{
+    max-width: 500px;
+    min-height: 500px;
+    margin-top: 20%;
+}
+.Card-content{
+    padding: 20px;
+}

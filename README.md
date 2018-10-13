@@ -1,24 +1,34 @@
-# Welcome
+# MedGO Contact Test App
 
-This template is intended as a project starter for testing:
-- [ ] your motivation for joining an awesome startup :)
-- [ ] your competence (either you master react and sails) or your ability to learn new technologies (or you don't)
-- [ ] your code quality
-- [ ] your sense of UX/UI
+This app is a contact form for contacting the web master.
+The application front-end is developped with ReactJS, and the back-end with NodeJs (ExpressJS). The contact form information are stored in MongoDB database from mLab database as a service.
 
-### What you should do
-You must implement a form so that a user can contact the webmaster. 
 
-It would be awesome to 
+## Installing
 
-- [ ] uses NodeJS (sailsjs http://sailsjs.com/ or expressjs are great frameworks) and ReactJs (https://reactjs.org/) stacks 
-- [ ] store on a database the info written on the form by the user
-- [ ] deploy your code on Heroku (or whatever website you prefer) so we can have a look on what you have done
+To run the application localy just :
+```
+$ cd medgo-app
+$ npm run start
+$ cd medgo-app-client
+$ run npm start
+```
+The back-application will be running on port 5000 and the front-application on port 3000.
+A proxy is defined in the front-application to redirect requests to the back-application.
 
-You are welcome to do whatever you want to achieve a beautiful and efficient result. You can also comment your code and make a beautiful responsive website.
+## Deployment
 
-### How to do it
-You can clone this project and create a new branch which should be named after you.
-Once you are finished, you can push your branch on Github on a project of your own and send an email to chris@medgo.fr with the url address
+The application is deployed on Heroku :
+* [medGO Contact](https://medgo-contact-app.herokuapp.com) - Link(https://medgo-contact-app.herokuapp.com)
 
-# Good luck !
+
+## Author
+
+* **Wassim Rekik** - *Student* 
+* **Wassim.rekik@insat.u-carthage.tn**
+
+
+## And finaly
+
+* Thank you for reading and testing the application.
+

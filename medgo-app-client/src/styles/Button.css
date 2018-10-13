@@ -1,0 +1,27 @@
+button{
+    padding: 10px;
+    border: solid #26ADF0 2px;
+    font-size: 1.2em;
+    color: #F6593B;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display:block;
+    margin: auto;
+}
+button:hover{
+    border: solid #26ADF0 3px;
+    font-size: 1.2em;
+    color: #F6593B;
+    background: #ffffff;
+    border-radius: 8px;
+}
+button:active{
+    border: solid #26ADF0 3px;
+    font-size: 1.2em;
+    color: #ffffff;
+    background: #26ADF0;
+    border-radius: 8px;
+}
+div{
+    display: block;
+}
