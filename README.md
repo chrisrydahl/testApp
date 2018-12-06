@@ -1,24 +1,27 @@
-# Welcome
+# med-go-contact-form
 
-This template is intended as a project starter for testing:
-- [ ] your motivation for joining an awesome startup :)
-- [ ] your competence (either you master react and sails) or your ability to learn new technologies (or you don't)
-- [ ] your code quality
-- [ ] your sense of UX/UI
+a [Sails v1](https://sailsjs.com) application
 
-### What you should do
-You must implement a form so that a user can contact the webmaster. 
 
-It would be awesome to 
+### Links
 
-- [ ] uses NodeJS (sailsjs http://sailsjs.com/ or expressjs are great frameworks) and ReactJs (https://reactjs.org/) stacks 
-- [ ] store on a database the info written on the form by the user
-- [ ] deploy your code on Heroku (or whatever website you prefer) so we can have a look on what you have done
++ [Get started](https://sailsjs.com/get-started)
++ [Sails framework documentation](https://sailsjs.com/documentation)
++ [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
++ [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
++ [Community support options](https://sailsjs.com/support)
++ [Professional / enterprise options](https://sailsjs.com/enterprise)
 
-You are welcome to do whatever you want to achieve a beautiful and efficient result. You can also comment your code and make a beautiful responsive website.
 
-### How to do it
-You can clone this project and create a new branch which should be named after you.
-Once you are finished, you can push your branch on Github on a project of your own and send an email to chris@medgo.fr with the url address
+### Version info
 
-# Good luck !
+This app was originally generated on Wed Dec 05 2018 19:24:31 GMT+0100 (GMT+01:00) using Sails v1.0.2.
+
+<!-- Internally, Sails used [`sails-generate@1.15.28`](https://github.com/balderdashy/sails-generate/tree/v1.15.28/lib/core-generators/new). -->
+
+
+
+<!--
+Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
+-->
+

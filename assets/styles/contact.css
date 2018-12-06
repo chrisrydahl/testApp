@@ -1,0 +1,78 @@
+#contact .contact-block {
+    background: #fff;
+    border-radius: 5px 5px 0 0;
+    padding: 12px 50px 5px;
+}
+
+.heart {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    background: url('../images/heart.png') no-repeat;    
+    cursor: pointer;
+    animation: fave-heart 1s steps(28);
+}
+.heart:hover {
+    background-position: -2800px 0;
+    transition: background 1s steps(28);
+}
+#contact h5 {
+    color: #616161;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.follow-btn i {
+    background: #c4c4c4;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    height: 45px;
+    margin-right: 1px;
+    margin-bottom: 4px;
+    padding-top: 15px;
+    text-align: center;
+    width: 45px;
+}
+
+a:hover, a:hover i {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.footer-copyright .row{
+    max-height: 5px;
+}
+.follow-btn a:hover i.fa-facebook-f	{background: #4551e3}
+.follow-btn a:hover i.fa-twitter	{background: #2a9dff}
+.follow-btn a:hover i.fa-linkedin	{background: #2a72ff}
+.follow-btn a:hover i.fa-dribbble	{background: #f26798}
+.follow-btn a:hover i.fa-behance	{background: #008eff}
+.follow-btn a:hover i.fa-instagram	{background: #306088}
+.follow-btn a:hover i.fa-youtube	{background: #e72424}
+.follow-btn a:hover i.fa-google-plus	{background: #E03E2A}
+.follow-btn a:hover i.fa-rss	{background: #ffa42a}
+.follow-btn a:active i{
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+#contact img {
+    width: 200px;
+}
+
+footer.page-footer {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+
+h1 , h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #2f343b;
+}
