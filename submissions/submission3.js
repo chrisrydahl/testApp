@@ -1,53 +1,45 @@
-'use strict';
-
-const fs = require('fs');
+"use strict";
 
 process.stdin.resume();
-process.stdin.setEncoding('utf-8');
+process.stdin.setEncoding("utf-8");
 
-let inputString = '';
+let inputString = "";
 let currentLine = 0;
 
-process.stdin.on('data', inputStdin => {
-    inputString += inputStdin;
+process.stdin.on("data", function (inputStdin) {
+  inputString += inputStdin;
 });
 
-process.stdin.on('end', _ => {
-    inputString = inputString.trim().split('\n').map(str => str.trim());
+process.stdin.on("end", function () {
+  inputString = inputString.split("\n");
 
-    main();
+  main();
 });
 
 function readLine() {
-    return inputString[currentLine++];
+  return inputString[currentLine++];
 }
 
-/*
- * Complete the countStrings function below.
- */
-function countStrings(r, l) {
-    /*
-     * Write your code here.
-     */
-
-}
+// Complete the matrixRotation function below.
+function matrixRotation(matrix, r) {}
 
 function main() {
-    const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
+  const mnr = readLine().replace(/\s+$/g, "").split(" ");
 
-    const t = parseInt(readLine(), 10);
+  const m = parseInt(mnr[0], 10);
 
-    for (let tItr = 0; tItr < t; tItr++) {
-        const rl = readLine().split(' ');
+  const n = parseInt(mnr[1], 10);
 
-        const r = rl[0];
+  const r = parseInt(mnr[2], 10);
 
-        const l = parseInt(rl[1], 10);
+  let matrix = Array(m);
 
-        let result = countStrings(r, l);
+  for (let i = 0; i < m; i++) {
+    matrix[i] = readLine()
+      .replace(/\s+$/g, "")
+      .split(" ")
+      .map((matrixTemp) => parseInt(matrixTemp, 10));
+  }
 
-        ws.write(result + "\n");
-    }
-
-    ws.end();
+  matrixRotation(matrix, r);
 }
