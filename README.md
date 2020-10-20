@@ -13,4 +13,8 @@ Do not hesitate to go to the Hackerrank site where the problems come from. It is
 
 Once you are finished, just send all the completed submissions files by completing the typeform https://antoinelo.typeform.com/to/cQkGbL. We will check that they pass the tests on https://www.hackerrank.com/. If they do you will go on the next step of our interview process.
 
+### Tips
+- The test is not time constrained so please take your time
+- Don't forget to solve all the problems
+
 ### Good luck !
