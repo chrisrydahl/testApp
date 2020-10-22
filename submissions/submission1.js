@@ -26,6 +26,22 @@ function readLine() {
 
 // Complete the minimumLoss function below.
 function minimumLoss(price) {
+    const reverseSortPrice = price.concat().sort((a, b) => b - a)
+
+  let loss = Infinity
+
+  for(let i=0; i< reverseSortPrice.length ; i++) {
+    let buy = reverseSortPrice[i]
+    let sell = reverseSortPrice[i+1]
+
+    let currentLoss = buy - sell
+
+    if(currentLoss < loss && price.indexOf(buy) < price.indexOf(sell)) {
+      loss = currentLoss
+    }
+  }
+
+  return loss
 
 
 }
