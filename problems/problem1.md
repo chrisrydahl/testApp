@@ -1,3 +1,3 @@
 # Link
 
-https://www.hackerrank.com/challenges/minimum-loss/problem
+https://www.hackerrank.com/challenges/closest-numbers/problem
